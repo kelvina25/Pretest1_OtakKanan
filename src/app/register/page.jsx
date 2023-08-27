@@ -20,25 +20,25 @@ const Register = () => {
               <div className="border-2 w-20 border-orange-400 inline-block mb-2"></div>
 
               <div className="flex flex-col items-center">
-                <div className="bg-gray-100 w-full md:w-64 p-2 flex items-center mb-3">
-                  <input type="password" name="password" placeholder="Name" className="bg-gray-100 outline-none text-sm flex-1"></input>
+                <div className="bg-gray-100 w-full md:w-64 p-2 flex items-center mb-3 ">
+                  <input type="name" name="name" placeholder="Name" className="bg-gray-100 outline-none text-sm flex-1 text-black"></input>
                 </div>
                 <div className="bg-gray-100 w-full md:w-64 p-2 flex items-center mb-3">
                   <FaRegEnvelope className="text-gray-400 mr-2 " />
-                  <input type="email" name="email" placeholder="Email" className="bg-gray-100 outline-none text-sm flex-1"></input>
+                  <input type="email" name="email" placeholder="Email" className="bg-gray-100 outline-none text-sm flex-1 text-black"></input>
                 </div>
                 <div className="bg-gray-100 w-full md:w-64 p-2 flex items-center mb-3">
                   <MdLockOutline className="text-gray-400 mr-2 " />
-                  <input type={visible ? "text" : "password"} name="password" placeholder="Password" className=" bg-gray-100 outline-none text-sm flex-1"></input>
-                  <div className="cursor-pointer" onClick={() => setVisible(!visible)}>
+                  <input type={visible ? "text" : "password"} name="password" placeholder="Password" className=" bg-gray-100 outline-none text-sm flex-1 text-black"></input>
+                  <div className="cursor-pointer text-black" onClick={() => setVisible(!visible)}>
                     {visible ? <AiOutlineEye /> : <AiOutlineEyeInvisible />}
                   </div>
                 </div>
 
                 <div className="bg-gray-100 w-full md:w-64 p-2 flex items-center mb-3">
                   <MdLockOutline className="text-gray-400 mr-2 " />
-                  <input type={invisible ? "text" : "password"} name="password" placeholder="Confirm Password" className="bg-gray-100 outline-none text-sm flex-1"></input>
-                  <div className="cursor-pointer" onClick={() => setInvisible(!invisible)}>
+                  <input type={invisible ? "text" : "password"} name="password" placeholder="Confirm Password" className="bg-gray-100 outline-none text-sm flex-1 text-black"></input>
+                  <div className="cursor-pointer text-black" onClick={() => setInvisible(!invisible)}>
                     {invisible ? <AiOutlineEye /> : <AiOutlineEyeInvisible />}
                   </div>
                 </div>
