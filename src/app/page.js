@@ -31,10 +31,10 @@ export default function Login() {
                 </div>
                 <div className="flex justify-between w-full md:w-64 mb-5">
                   <label className="flex items-center text-xs">
-                    <input type="checkbox" name="remember" className="mr-1"/>
+                    <input type="checkbox" name="remember" className="mr-1 text-black"/>
                     Remember me
                   </label>
-                  <a href="#" className="text-xs">Forgot Password</a>
+                  <a href="#" className="text-xs text-black">Forgot Password</a>
                 </div>
                 <a
               href="register"
@@ -47,19 +47,19 @@ export default function Login() {
               <div className="flex justify-center my-2">
                 <a
                   href="#"
-                  className="border-2 border-gray-200 rounded-full p-3 mx-1"
+                  className="border-2 border-gray-200 text-black rounded-full p-3 mx-1"
                 >
                   <FaFacebook className="text-sm" />
                 </a>
                 <a
                   href="#"
-                  className="border-2 border-gray-200 rounded-full p-3 mx-1"
+                  className="border-2 border-gray-200 text-black rounded-full p-3 mx-1"
                 >
                   <FaLinkedinIn className="text-sm" />
                 </a>
                 <a
                   href="#"
-                  className="border-2 border-gray-200 rounded-full p-3 mx-1"
+                  className="border-2 border-gray-200 text-black rounded-full p-3 mx-1"
                 >
                   <FaGoogle className="text-sm" />
                 </a>
