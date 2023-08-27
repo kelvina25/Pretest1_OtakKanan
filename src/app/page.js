@@ -31,8 +31,8 @@ export default function Login() {
                 </div>
                 <div className="flex justify-between w-full md:w-64 mb-5">
                   <label className="flex items-center text-xs">
-                    <input type="checkbox" name="remember" className="mr-1 text-black"/>
-                    Remember me
+                    <input type="checkbox" name="remember" className="mr-1"/>
+                    <p className="text-black">Remember me</p>
                   </label>
                   <a href="#" className="text-xs text-black">Forgot Password</a>
                 </div>
