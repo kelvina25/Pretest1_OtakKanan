@@ -38,7 +38,7 @@ export default function Login() {
                 </div>
                 <a
               href="register"
-              className="border-2 border-orange-400 rounded-full px-12 py-2 inline-block font-semibold hover:bg-orange-400 hover:text-white"
+              className="border-2 border-orange-400 text-orange-400 rounded-full px-12 py-2 inline-block font-semibold hover:bg-orange-400 hover:text-white"
             >
               Login
             </a>
